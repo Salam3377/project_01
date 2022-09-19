@@ -11,3 +11,5 @@ rules:
 - The player who gets '6 scores' first wins!
 - 3:00 min lasts one match, by the end of the time, players that has more points wins!
 If the players have same points, it's a draw!
+
+![](IMG_2344.jpg)
