@@ -1,0 +1,106 @@
+body {
+    background-color: rgb(30, 95, 123);
+}
+#canvas {
+    width: 800px;
+    height: 500px;
+    background-color: black;
+    margin: auto;
+    margin-top: 30px;
+    border: 2px solid white;
+}
+button {
+    border:none;
+    appearance:none;
+    outline:none;
+    display:inline-block;
+    font-size: 25px;
+    cursor:pointer;
+    text-decoration:none;
+    padding:0px 40px 0px 40px;
+    border-radius: 15%;
+    color: black;
+    background-color: aquamarine;
+    border: 2px solid white;
+    display: block;
+    margin: auto;
+}
+#rules {
+    margin-top: 15px;
+}
+
+#names-board {
+display: block;
+    text-align: center;
+    margin-top: 150px
+}
+#display-name1 {
+    padding-right: 100px;
+}
+#p1-score {
+    padding-right: 130px;
+    color: orange;
+}
+#p2-score {
+    padding-left: 130px;
+    color: orange;
+}
+#display-name2 {
+    padding-left: 100px;
+}
+#start-window {
+    text-align: center;
+    margin-top: 30px
+}
+#Player-1 {
+    margin-bottom: 20px;
+}
+#Player-2 {
+    margin-bottom: 20px;
+}
+span {
+    font-size: 35px;
+    color: whitesmoke;
+}
+
+.input-text {
+    width: 100px;
+    color: black;
+    background-color: aquamarine;
+    height: 25px;
+    font-size: 20px;
+    font-weight: bolder
+}
+#start-window {
+    margin-top: 300px;
+}
+
+#ending-menu {
+    width: 250px;
+    height: 150px;
+    margin: auto;
+    text-align: center;
+    border-radius: 10%;
+    border: 2px solid whitesmoke;
+    margin-top: 10px;
+}
+#Restart {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#New-Players {
+    margin-bottom: 20px;
+}
+
+#winner-board {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 120px;
+    color: antiquewhite;
+}
+
+#rules-ul {
+    text-align: center;
+    font-size: 35px;
+    list-style-type: none;
+}

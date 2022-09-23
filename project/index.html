@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="start-window" style="display:block">
+        <div id="Player-1">
+            <span>Player_1 name: </span><span><input id="text-1" class="input-text" type="text" ></span>
+        </div>
+        <div id="Player-2">
+            <span>Player_2 name: </span><input id="text-2" class="input-text" type="text"></span>
+        </div>
+
+        <button id="button" type="button">Start</button>
+        <button id="rules" type="button">How to Play</button>
+
+    </div>
+    <div id="inside-rules" style="display: none;">
+        <p>hello</p>
+        <ul id="rules-ul">
+            <li class="rules-list">Left paddle: press 'W' move up, press 'S' move down</li>
+            <li class="rules-list">Right paddle: press 'ArrowUp'' move up, press 'ArrowDown' move down</li>
+            <li class="rules-list">You have 60 seconds to play, who ever gets 6 points first, wins! </li>
+        </ul>
+        <button id="go-back">back</button>
+      </div>
+    <main id="main">
+        <div id="winner-board"></div>
+        <div id="names-board" style="display: none;">
+            <span id="display-name1"></span><span id="p1-score">0</span> <span id="time-left"></span> <span id="p2-score">0</span><span id="display-name2"></span>
+        </div>
+        <canvas id="canvas" style="display: none;"></canvas>
+        <div id="ending-menu" style="display:none">
+            <button id="Restart"> Start Over</button>
+            <button id="New-Players">New Players</button>
+            <!-- <button id="End">End</button> -->
+        </div>
+    </main>
+    <script src="js.js"></script>
+</body>
+</html>
