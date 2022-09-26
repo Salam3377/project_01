@@ -38,13 +38,8 @@ let timeWindow = document.getElementById('time-left')
 
 let winnerBoard = document.getElementById('winner-board')
 
-//let board = document.getElementById('names-board')  no need lets check
-
 const endingMenu = document.getElementById('ending-menu')
 
-//let newPlayers = document.getElementById('New-Players') already have lets see
-
-//let end = document.getElementById('End')
 //-------------create-reset-window-------------------------------------
 let restart = document.getElementById("Restart")
 restart.addEventListener('click', () => { 
